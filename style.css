@@ -371,14 +371,30 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 0.5rem;
   color: black;
 }
 
 .project-btn {
-  color: black;
+  color: rgb(0, 0, 0);
   border-color: rgb(163, 163, 163);
 }
+
+
+/* MoreAboutMe SECTION */
+.row {
+  display: flex;
+  padding: 0.5rem;
+
+}
+
+
+.col-md-6 {
+  max-width: 100%; /* Set the maximum width for images to 30% of the available space */
+}
+
+
+
 
 /* CONTACT */
 
