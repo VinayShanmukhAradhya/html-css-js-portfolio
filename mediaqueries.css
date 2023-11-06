@@ -46,6 +46,35 @@
       margin-top: 0;
     }
   }
+
+
+  @media (max-width: 768px) {
+
+    /* Hide the title */
+    .title {
+      display: none;
+    }
+  
+    /* Make the images full-width */
+    .col-md-6 img {
+      width: 100%;
+    }
+  
+    /* Stack the images on top of each other */
+    .row {
+      flex-direction: column;
+    }
+  
+    /* Increase the font size of the paragraphs */
+    .row p {
+      font-size: 16px;
+    }
+  
+    /* Center the text */
+    .row p {
+      text-align: center;
+    }
+  }
   
   @media screen and (max-width: 600px) {
     #contact,
